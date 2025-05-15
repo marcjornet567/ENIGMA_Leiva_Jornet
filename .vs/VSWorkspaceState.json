@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Enigma",
+    "\\Enigma\\Enigma"
   ],
+  "SelectedNode": "\\Enigma\\Enigma\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
