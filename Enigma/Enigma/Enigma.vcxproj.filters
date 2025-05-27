@@ -24,4 +24,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="rotor1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="rotor2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="rotor3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="missatge_xifrat.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

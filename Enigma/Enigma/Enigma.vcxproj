@@ -132,6 +132,12 @@
   <ItemGroup>
     <ClInclude Include="const.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="missatge_xifrat.txt" />
+    <Text Include="rotor1.txt" />
+    <Text Include="rotor2.txt" />
+    <Text Include="rotor3.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
