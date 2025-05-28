@@ -18,9 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="xifratge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xifratge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -34,7 +43,7 @@
     <Text Include="rotor3.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="missatge_xifrat.txt">
+    <Text Include="Missatge.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

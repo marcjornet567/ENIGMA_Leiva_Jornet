@@ -1,7 +1,8 @@
 #include "const.h"
+#include "xifratge.h"
+#include "utils.h"
+
 int main() {
-    short opcioMenu;
-    string missatge;
 
     cout << "\tEnigma" << endl;
     cout << "-----------------------" << endl;
@@ -11,12 +12,28 @@ int main() {
     cout << "4. Sortir" << endl;
     cin >> opcioMenu;
     cin.get(); // per netejar el buffer d'entrada despres del cin, que si no, el getline no funcionaria correctament
+    
+    //INTENTO DE
+   
+ //   fstream roto1;
+ //   roto1.open("rotor1.txt");
+ //   roto1 << "MBRPJLZFOVNCKQDEWAGUTXHYS\nI" << endl;
+ //  
+ //   if (!roto1.is_open())
+	//{
+	//	cout << "Error al obrir el fitxer rotor1.txt" << endl;
+	//}
+ //   else
+ //   {
+ //       string roto1_str;
+ //       while(getline(roto1, roto1_str)); {
 
-    ofstream roto1;
-    ofstream roto2;
-    ofstream roto3;
-    ofstream missatge_xifrat;
+	//		cout << "VAINAAAAAAA LOCAACCCCACA" << roto1_str << endl; // Mostrar el contingut del rotor1
+	//	}
+	//	roto1.close();
+ //   }
 
+   
     roto1.open("rotor1.txt");
     roto1 << "MBRPJLZFOVNCKQDEWAGUTXHYS\nI" << endl;
     roto1.close();
@@ -28,9 +45,8 @@ int main() {
     roto3.open("rotor3.txt");
     roto3 << "TUDCSMHFALIPEWJYZNGOQBKRV\nX" << endl;
     roto3.close();
-
-	// Variable resultat fora del switch.
-    string resultado;
+    
+    
 
     switch (opcioMenu) {
     case 1:
@@ -68,10 +84,19 @@ int main() {
 
         cout << "El missatge a xifrar es: " << resultado << endl;
 
-        // Guardar el missatge xifrat en un archivo
-        missatge_xifrat.open("missatge_xifrat.txt");
-        missatge_xifrat << resultado << endl; // Guardar el mensaje en el archivo
-        missatge_xifrat.close();
+		// Guardar el missatge normal en un fitxer  
+        missatge_base.open("Missatge.txt");
+        missatge_base << resultado << endl; // Guardar el mensaje en el archivo
+        missatge_base.close();
+
+        
+
+
+
+		//Funcio de xifratge, ES NECESARIO QUE roto1, roto2, roto3 siguin strings i no ofstream, los notch, dejalos en chars
+        xifrarMissatge(resultado, roto1, roto2, roto3, notchrot1, notchrot2, notchrot3);
+
+		
 
         break;
     case 2:

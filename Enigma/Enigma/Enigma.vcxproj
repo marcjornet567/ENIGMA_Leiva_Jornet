@@ -128,12 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="xifratge.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="const.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="xifratge.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="missatge_xifrat.txt" />
+    <Text Include="Missatge.txt" />
     <Text Include="rotor1.txt" />
     <Text Include="rotor2.txt" />
     <Text Include="rotor3.txt" />
