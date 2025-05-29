@@ -2,15 +2,71 @@
 #include "xifratge.h"
 #include "utils.h"
 
-void parsear_Rotor() {
+//  BACKUP POR SI ACASO xd
+
+//void parsear_Rotor() {
+//    ifstream rotorFile1("rotor1.txt");
+//
+//    string texto1;
+//    string notch1;
+//
+//    getline(rotorFile1, texto1);
+//
+//    if (getline(rotorFile1, notch1)) { 
+//        notch1 = notch1[0];
+//    }
+//    else {
+//        notch1 = 'Z';
+//    }
+//
+//    rotorFile1.close();
+//
+//
+//    ifstream rotorFile2("rotor2.txt");
+//
+//    string texto2;
+//    string notch2;
+//
+//    getline(rotorFile2, texto2);
+//
+//    if (getline(rotorFile2, notch2)) {
+//        notch2 = notch2[0];
+//    }
+//    else {
+//        notch2 = 'Z';
+//    }
+//
+//    rotorFile2.close();
+//
+//    ifstream rotorFile3("rotor3.txt");
+//
+//    string texto3;
+//    string notch3;
+//
+//    getline(rotorFile3, texto3);
+//
+//    if (getline(rotorFile3, notch3)) {
+//        notch3 = notch3[0];
+//    }
+//    else {
+//        notch3 = 'Z';
+//    }
+//
+//    rotorFile3.close();
+//}
+
+
+
+
+
+
+
+void parsear_Rotor(string& texto1, string& notch1, string& texto2, string& notch2, string& texto3, string& notch3) {
+    
     ifstream rotorFile1("rotor1.txt");
-
-    string texto1;
-    string notch1;
-
     getline(rotorFile1, texto1);
 
-    if (getline(rotorFile1, notch1)) { 
+    if (getline(rotorFile1, notch1)) {
         notch1 = notch1[0];
     }
     else {
@@ -21,9 +77,6 @@ void parsear_Rotor() {
 
 
     ifstream rotorFile2("rotor2.txt");
-
-    string texto2;
-    string notch2;
 
     getline(rotorFile2, texto2);
 
@@ -36,11 +89,8 @@ void parsear_Rotor() {
 
     rotorFile2.close();
 
+ 
     ifstream rotorFile3("rotor3.txt");
-
-    string texto3;
-    string notch3;
-
     getline(rotorFile3, texto3);
 
     if (getline(rotorFile3, notch3)) {
@@ -53,8 +103,26 @@ void parsear_Rotor() {
     rotorFile3.close();
 }
 
+
+
+
+
 int main() {
 
+    string texto1;
+    string notch1;
+
+    string texto2;
+    string notch2;
+
+    string texto3;
+    string notch3;
+
+    //Funcio per cridar a el parseo de rotors a strings
+    parsear_Rotor(texto1, notch1, texto2, notch2, texto3, notch3);
+
+
+	// Variables per guardar el resultat del input del usuari
     int opcioMenu;
 
     cout << "\tEnigma" << endl;
@@ -65,27 +133,6 @@ int main() {
     cout << "4. Sortir" << endl;
     cin >> opcioMenu;
     cin.get(); // per netejar el buffer d'entrada despres del cin, que si no, el getline no funcionaria correctament
-
-    //INTENTO DE
-
- //   fstream roto1;
- //   roto1.open("rotor1.txt");
- //   roto1 << "MBRPJLZFOVNCKQDEWAGUTXHYS\nI" << endl;
- //  
- //   if (!roto1.is_open())
-    //{
-    //	cout << "Error al obrir el fitxer rotor1.txt" << endl;
-    //}
- //   else
- //   {
- //       string roto1_str;
- //       while(getline(roto1, roto1_str)); {
-
-    //		cout << "VAINAAAAAAA LOCAACCCCACA" << roto1_str << endl; // Mostrar el contingut del rotor1
-    //	}
-    //	roto1.close();
- //   }
-
 
     roto1.open("rotor1.txt");
     roto1 << "MBRPJLZFOVNCKQDEWAGUTXHYS\nI" << endl;
@@ -98,7 +145,6 @@ int main() {
     roto3.open("rotor3.txt");
     roto3 << "TUDCSMHFALIPEWJYZNGOQBKRV\nX" << endl;
     roto3.close();
-
 
 
     switch (opcioMenu) {
@@ -143,11 +189,8 @@ int main() {
         missatge_base.close();
 
 
-
-
-
-        //Funcio de xifratge, ES NECESARIO QUE roto1, roto2, roto3 siguin strings i no ofstream, los notch, dejalos en chars
-        xifrarMissatge(resultado, roto1, roto2, roto3, notchrot1, notchrot2, notchrot3);
+		//Funcio que crida a la funcio de xifratge, que ara ja podem enviarli strings i no ofstream
+        xifrarMissatge(resultado, texto1, texto2, texto3, notch1, notch2, notch3);
 
 
 

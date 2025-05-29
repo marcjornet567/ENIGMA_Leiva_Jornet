@@ -1,4 +1,4 @@
 #pragma once
 #include "const.h"
 
-void xifrarMissatge(string& resultado, ofstream& roto1, ofstream& roto2, ofstream& roto3, char notch1, char notch2, char notch3);
+void xifrarMissatge(string& resultado, string& roto1, string& roto2, string& roto3, string notch1, string notch2, string notch3);

@@ -18,9 +18,9 @@ ofstream missatge_base;
 //Sacar los notch al final de cada rotor
 //version hardcodeada
 
-char notchrot1 = 'I';
-char notchrot2 = 'T';
-char notchrot3 = 'X';
+//char notchrot1 = 'I';
+//char notchrot2 = 'T';
+//char notchrot3 = 'X';
 //version no HARDCOEDADA
 //usar .eof(), mira si es final archivo
 
