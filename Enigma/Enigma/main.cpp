@@ -2,64 +2,6 @@
 #include "xifratge.h"
 #include "utils.h"
 
-//  BACKUP POR SI ACASO xd
-
-//void parsear_Rotor() {
-//    ifstream rotorFile1("rotor1.txt");
-//
-//    string texto1;
-//    string notch1;
-//
-//    getline(rotorFile1, texto1);
-//
-//    if (getline(rotorFile1, notch1)) { 
-//        notch1 = notch1[0];
-//    }
-//    else {
-//        notch1 = 'Z';
-//    }
-//
-//    rotorFile1.close();
-//
-//
-//    ifstream rotorFile2("rotor2.txt");
-//
-//    string texto2;
-//    string notch2;
-//
-//    getline(rotorFile2, texto2);
-//
-//    if (getline(rotorFile2, notch2)) {
-//        notch2 = notch2[0];
-//    }
-//    else {
-//        notch2 = 'Z';
-//    }
-//
-//    rotorFile2.close();
-//
-//    ifstream rotorFile3("rotor3.txt");
-//
-//    string texto3;
-//    string notch3;
-//
-//    getline(rotorFile3, texto3);
-//
-//    if (getline(rotorFile3, notch3)) {
-//        notch3 = notch3[0];
-//    }
-//    else {
-//        notch3 = 'Z';
-//    }
-//
-//    rotorFile3.close();
-//}
-
-
-
-
-
-
 
 void parsear_Rotor(string& texto1, string& notch1, string& texto2, string& notch2, string& texto3, string& notch3) {
     
