@@ -46,6 +46,23 @@ void parsear_Rotor(string& texto1, string& notch1, string& texto2, string& notch
 }
 
 
+bool esPermutacioValida(const string& permutacio) {
+    if (permutacio.length() != 26) return false;
+
+    bool lletraVista[26] = { false };
+
+    for (int i = 0; i < 26; ++i) {
+        char lletra = permutacio[i];
+        if (lletra < 'A' || lletra > 'Z') return false;  // Només lletres majúscules
+
+        int indexLletra = lletra - 'A';
+        if (lletraVista[indexLletra]) return false;  // Lletra repetida
+
+        lletraVista[indexLletra] = true;
+    }
+
+    return true;
+}
 
 
 
@@ -165,9 +182,60 @@ int main() {
             desxifrarMissatge(missatgeXifrat, texto1, texto2, texto3, notch1, notch2, notch3);
             break;
         }
-        case 3:
+        case 3: {
             cout << "Editar rotors" << endl;
+            cout << "Selecciona el rotor que vols editar (1, 2 o 3): ";
+            int rotorIndex;
+            cin >> rotorIndex;
+            cin.get(); // netejar el buffer
+
+            if (rotorIndex < 1 || rotorIndex > 3) {
+                cout << "Rotor invàlid." << endl;
+                break;
+            }
+
+            string novaPermutacio, notch;
+            cout << "Introdueix la nova permutació (26 lletres A-Z sense repeticions): ";
+            getline(cin, novaPermutacio);
+
+            // Convertir a majúscules amb for clàssic
+            for (int i = 0; i < novaPermutacio.length(); ++i) {
+                if (novaPermutacio[i] >= 'a' && novaPermutacio[i] <= 'z') {
+                    novaPermutacio[i] -= 32;
+                }
+            }
+
+            if (!esPermutacioValida(novaPermutacio)) {
+                cout << "Permutació invàlida. Assegura't que tingui exactament 26 lletres sense repetir." << endl;
+                break;
+            }
+
+            cout << "Introdueix el notch (una sola lletra entre A i Z): ";
+            getline(cin, notch);
+            if (notch.length() != 1 || notch[0] < 'A' || notch[0] > 'Z') {
+                cout << "Notch invàlid." << endl;
+                break;
+            }
+
+            string nomFitxer = "rotor";
+            nomFitxer += char('0' + rotorIndex);  // Ej: "rotor1", "rotor2", etc.
+            nomFitxer += ".txt";
+
+            ofstream rotorOut(nomFitxer.c_str());
+            if (!rotorOut) {
+                cout << "No s'ha pogut obrir el fitxer del rotor." << endl;
+                break;
+            }
+
+            rotorOut << novaPermutacio << endl;
+            rotorOut << notch[0] << endl;
+            rotorOut.close();
+
+            cout << "Rotor " << rotorIndex << " actualitzat correctament!" << endl;
             break;
+        }
+
+              break;
         case 4:
             continuar = false;
             cout << "Sortir" << endl;

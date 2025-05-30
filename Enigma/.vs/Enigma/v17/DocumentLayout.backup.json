@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\",
+  "WorkspaceRootPath": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\xifratge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\xifratge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\desxifratge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\desxifratge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\rotar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\xifratge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\xifratge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E1859976-A43A-4F35-B347-DFAF409AE330}|Enigma\\Enigma.vcxproj|solutionrelative:Enigma\\const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\main.cpp",
               "RelativeDocumentMoniker": "Enigma\\main.cpp",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\main.cpp",
-              "RelativeToolTip": "Enigma\\main.cpp",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAJ0AAAAyAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\main.cpp*",
+              "RelativeToolTip": "Enigma\\main.cpp*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-27T17:32:22.808Z",
               "IsPinned": true,
@@ -68,11 +68,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "rotar.cpp",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.cpp",
               "RelativeDocumentMoniker": "Enigma\\rotar.cpp",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.cpp",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.cpp",
               "RelativeToolTip": "Enigma\\rotar.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -81,11 +81,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "desxifratge.h",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.h",
               "RelativeDocumentMoniker": "Enigma\\desxifratge.h",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.h",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.h",
               "RelativeToolTip": "Enigma\\desxifratge.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -94,63 +94,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "desxifratge.cpp",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.cpp",
               "RelativeDocumentMoniker": "Enigma\\desxifratge.cpp",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.cpp",
-              "RelativeToolTip": "Enigma\\desxifratge.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\desxifratge.cpp*",
+              "RelativeToolTip": "Enigma\\desxifratge.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-30T15:28:20.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "xifratge.h",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.h",
               "RelativeDocumentMoniker": "Enigma\\xifratge.h",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.h",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.h",
               "RelativeToolTip": "Enigma\\xifratge.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-29T09:27:48.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T09:27:48.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "xifratge.cpp",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.cpp",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.cpp",
               "RelativeDocumentMoniker": "Enigma\\xifratge.cpp",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.cpp",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\xifratge.cpp",
               "RelativeToolTip": "Enigma\\xifratge.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-28T08:02:08.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "const.h",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\const.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\const.h",
               "RelativeDocumentMoniker": "Enigma\\const.h",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\const.h",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\const.h",
               "RelativeToolTip": "Enigma\\const.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-27T17:32:22.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T17:32:22.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "rotar.h",
-              "DocumentMoniker": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.h",
+              "DocumentMoniker": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.h",
               "RelativeDocumentMoniker": "Enigma\\rotar.h",
-              "ToolTip": "C:\\Users\\roku\\Documents\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.h",
+              "ToolTip": "C:\\Users\\alexl\\Documents\\Programacion\\ENIGMA_Leiva_Jornet\\Enigma\\Enigma\\rotar.h",
               "RelativeToolTip": "Enigma\\rotar.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",

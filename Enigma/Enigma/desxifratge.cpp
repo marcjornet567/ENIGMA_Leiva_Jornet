@@ -18,7 +18,8 @@ void desxifrarMissatge(const string& mensajeCifrado, string rotor1, string rotor
 
     string mensajeDescifrado;
 
-    for (char caracter : mensajeCifrado) {
+    for (size_t i = 0; i < mensajeCifrado.length(); ++i) {
+        char caracter = mensajeCifrado[i];
         if (caracter == ' ') continue;
 
         // Paso inverso por rotores (de atrás hacia adelante)

@@ -7,7 +7,8 @@ void xifrarMissatge(const string& mensajeOriginal, string rotor1, string rotor2,
 
     string mensajeCifrado;
 
-    for (char caracter : mensajeOriginal) {
+    for (size_t i = 0; i < mensajeOriginal.length(); ++i) {
+        char caracter = mensajeOriginal[i];
         if (caracter == ' ') continue;
 
         // Pasar por los rotores
