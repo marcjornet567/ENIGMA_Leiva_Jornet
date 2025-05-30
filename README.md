@@ -14,6 +14,7 @@ cout << "3. Editar rotors" << endl;
 cout << "4. Sortir" << endl;
 cin >> opcioMenu;
 ```
+### Imagen MENU
 ![Foto Menu](https://github.com/marcjornet567/ENIGMA_Leiva_Jornet/blob/main/sagfhjsh.png)
 
 ## Estructura del Projecte
