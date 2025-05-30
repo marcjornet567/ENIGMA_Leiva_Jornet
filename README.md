@@ -14,7 +14,7 @@ cout << "3. Editar rotors" << endl;
 cout << "4. Sortir" << endl;
 cin >> opcioMenu;
 ```
-[ImagenMenu](https://github.com/marcjornet567/ENIGMA_Leiva_Jornet/blob/main/sagfhjsh.png)
+(https://github.com/marcjornet567/ENIGMA_Leiva_Jornet/blob/main/sagfhjsh.png)
 
 ## Estructura del Projecte
 - main.cpp
