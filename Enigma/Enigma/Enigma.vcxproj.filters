@@ -21,6 +21,12 @@
     <ClCompile Include="xifratge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="desxifratge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rotar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="const.h">
@@ -30,6 +36,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="desxifratge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rotar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

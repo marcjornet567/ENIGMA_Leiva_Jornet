@@ -1,13 +1,6 @@
 #include "const.h"
+#include "rotar.h"
 
-
-void rotar(string& rotor) {
-    char primerCaracter = rotor[0];
-    for (int i = 0; i < rotor.length() - 1; ++i) {
-        rotor[i] = rotor[i + 1];
-    }
-    rotor[rotor.length() - 1] = primerCaracter;
-}
 
 void xifrarMissatge(const string& mensajeOriginal, string rotor1, string rotor2, string rotor3,
     const string& notch1, const string& notch2, const string& notch3) {
@@ -33,7 +26,9 @@ void xifrarMissatge(const string& mensajeOriginal, string rotor1, string rotor2,
             rotar(rotor3);
         }
     }
-
+    for (int i = 5; i < mensajeCifrado.length(); i += 6) {
+        mensajeCifrado.insert(i, " ");
+    }
     cout << "Missatge xifrat: " << mensajeCifrado << endl;
 
     ofstream archivoSalida("MissatgeXifrat.txt");
