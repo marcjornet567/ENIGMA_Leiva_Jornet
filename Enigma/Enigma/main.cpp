@@ -77,15 +77,15 @@ int main() {
     cin.get(); // per netejar el buffer d'entrada despres del cin, que si no, el getline no funcionaria correctament
 
     roto1.open("rotor1.txt");
-    roto1 << "MBRPJLZFOVNCKQDEWAGUTXHYS\nI" << endl;
+    roto1 << "MBRPJLZFOVINCKQDEWAGUTXHYS\nI" << endl;
     roto1.close();
 
     roto2.open("rotor2.txt");
-    roto2 << "XHSGMLDYNVBOIWZCAFJPRQKUE\nT" << endl;
+    roto2 << "XHSGMLDYNVBOIWZCTAFJPRQKUE\nT" << endl;
     roto2.close();
 
     roto3.open("rotor3.txt");
-    roto3 << "TUDCSMHFALIPEWJYZNGOQBKRV\nX" << endl;
+    roto3 << "TUDCSMHFALXIPEWJYZNGOQBKRV\nX" << endl;
     roto3.close();
 
 
