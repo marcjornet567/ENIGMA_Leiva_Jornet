@@ -26,7 +26,7 @@ void xifrarMissatge(const string& mensajeOriginal, string rotor1, string rotor2,
             rotar(rotor3);
         }
     }
-    for (int i = 5; i < mensajeCifrado.length(); i += 6) {
+    for (int i = INICIO; i < mensajeCifrado.length(); i += SALTO) {
         mensajeCifrado.insert(i, " ");
     }
     cout << "Missatge xifrat: " << mensajeCifrado << endl;

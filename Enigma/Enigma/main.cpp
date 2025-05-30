@@ -1,7 +1,6 @@
 #include "const.h"
 #include "xifratge.h"
 #include "desxifratge.h"
-#include "utils.h"
 
 
 void parsear_Rotor(string& texto1, string& notch1, string& texto2, string& notch2, string& texto3, string& notch3) {
@@ -51,6 +50,7 @@ void parsear_Rotor(string& texto1, string& notch1, string& texto2, string& notch
 
 
 int main() {
+    //variables string
     string missatge;
     string resultado;
 
@@ -73,7 +73,7 @@ int main() {
 
 
 
-
+	//Obrim els fitxers dels rotors i els escrivim amb les dades hardcodejades
     roto1.open("rotor1.txt");
     roto1 << "MBRPJLZFOVINCKQDEWAGUTXHYS\nI" << endl;
     roto1.close();
@@ -111,7 +111,7 @@ int main() {
             for (int i = 0; i < missatge.length(); i++) {
                 // Si es lletra minuscula, convertir a majuscula
                 if (missatge[i] >= 'a' && missatge[i] <= 'z') {
-                    missatge[i] -= 32;
+                    missatge[i] -= DEMINUSAMAYUS;
                 }
                 // Si es majuscula o espai, aceptar
                 else if ((missatge[i] >= 'A' && missatge[i] <= 'Z') || missatge[i] == ' ') {
@@ -132,13 +132,18 @@ int main() {
             }
 
             // AGRUPAR EL MISSATGE EN GRUPS DE 5 CARACTERES
-            for (int i = 5; i < resultado.length(); i += 6) {
+
+            //Començem amb i=5, fins que el resultat no superi la llargada de 5 caracters, no fara cap espai, pero quan la llargada 
+            //sigui mes gran que 5, es creara un espai, despres de haver fet un espai en blanc, sumarem i += 6, ja que ens 
+            //esta contant el carcter espai, si fiquesim i += 5, fariem el proxim espai en el caracter 4 i no es el que volem.
+
+            for (int i = INICIO; i < resultado.length(); i += SALTO) {
                 resultado.insert(i, " "); // Insertar un espai cada 5 caracters
             }
 
             cout << "El missatge a xifrar es: " << resultado << endl;
 
-            // Guardar el missatge normal en un fitxer  
+            // Guardar el missatge BASE en un fitxer  
             missatge_base.open("Missatge.txt");
             missatge_base << resultado << endl; // Guardar el mensaje en el archivo
             missatge_base.close();

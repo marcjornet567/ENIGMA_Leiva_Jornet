@@ -136,7 +136,6 @@
     <ClInclude Include="const.h" />
     <ClInclude Include="desxifratge.h" />
     <ClInclude Include="rotar.h" />
-    <ClInclude Include="utils.h" />
     <ClInclude Include="xifratge.h" />
   </ItemGroup>
   <ItemGroup>

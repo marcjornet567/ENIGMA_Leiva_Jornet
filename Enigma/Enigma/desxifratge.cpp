@@ -2,7 +2,7 @@
 #include "rotar.h"
 
 
-// Devuelve la letra original buscando en el rotor inversamente
+// Retorna la lletra original buscant en el rotor inversament
 char inversoRotor(const string& rotor, char letra) {
     for (int i = 0; i < rotor.size(); ++i) {
         if (rotor[i] == letra) {

@@ -35,9 +35,6 @@
     <ClInclude Include="xifratge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="desxifratge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
