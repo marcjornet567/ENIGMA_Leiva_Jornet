@@ -1,6 +1,6 @@
 # ENIGMA_Leiva_Jornet
 ## Descripció del Projecte
-### Aixo és un projecte que simula el funcionament de la maquina utilitzada pels NAZIS anomenada ENIGMA. Es basa en una maquina de encriptacio y desencriptacio.
+### Aixo és un projecte que simula el funcionament de la maquina utilitzada pels NAZIS anomenada ENIGMA. Es basa en una maquina de encriptació y desencriptació.
 
 ## Menu Inici
 ```cpp
@@ -14,7 +14,7 @@ cout << "3. Editar rotors" << endl;
 cout << "4. Sortir" << endl;
 cin >> opcioMenu;
 ```
-[ImagenMenu]()
+[ImagenMenu](https://github.com/marcjornet567/ENIGMA_Leiva_Jornet/blob/main/sagfhjsh.png)
 
 ## Estructura del Projecte
 - main.cpp
